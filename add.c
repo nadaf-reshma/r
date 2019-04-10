@@ -1,13 +1,14 @@
-#include<stdio.h>
-
+#include <stdio.h>
 int main()
 {
-   int a=9, b=9, c;
+    int number=5;
 
+    
+   
+    if(number % 2 == 0)
+        printf("%d is even.", number);
+    else
+        printf("%d is odd.", number);
 
-   c = a + b;
-
-
-
-   return 0;
+    return 0;
 }
